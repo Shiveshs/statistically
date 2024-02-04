@@ -11,7 +11,7 @@ const App = () => {
       <div className='bg-gray-800 text-white'>
         <Header />
         <Routes>
-          <Route path='/' element={<HomePage />} />
+          <Route path='/statistically' element={<HomePage />}/>
           <Route path='/country/:country' element={<CountryPage />} />
         </Routes>
       </div>
